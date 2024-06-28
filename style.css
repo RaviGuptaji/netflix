@@ -181,4 +181,45 @@ button{
 .part1 p{
     font-size: 24px;
 }
+/* new dowlaod box */
+.dowload{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.download_img{
+    height: 420px;
+    width: 560px;
+    background-color: red;
+}
+
+.download-img{
+    background-image: url(mobile-0819.jpg);
+    background-size: cover;
+    height: 420px;
+    width: 560px;
+}
+
+.download_info{
+    background-color: black;
+    height: 420px;
+    width: 560px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_info h1{
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.download_info p{
+    margin: 16px 0px 0px;
+    font-size: 24px;
+
+}
